@@ -1,5 +1,4 @@
-### Automatically backup dotfiles and other essentials to GitHub
-### Using systemd timers (linux only)
+### Automatically backup dotfiles and other essentials to GitHub using systemd timers (Linux only)
 
 #### Prerequisites
 
