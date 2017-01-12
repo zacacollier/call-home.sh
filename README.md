@@ -10,7 +10,10 @@ git init
 touch .gitignore
 ```
 - Edit `.gitignore` to exclude bulky & unnecessary files (Pictures, Videos, chromium cache etc)
-> **Add entries prefixed by wildcards '*' to exclude directories. Do some dry runs with `git add -n .` to make sure they're being ignored**
+
+> **Add entries prefixed by wildcards '*' to exclude directories.**
+
+> **Do some dry runs with `git add -n .` to make sure they're being ignored**
 
 #### Installation
 ```bash
