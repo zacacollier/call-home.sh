@@ -1,0 +1,6 @@
+[Unit]
+Description=Run script to automatically backup home configs
+
+[Service]
+Type=simple
+ExecStart=/home/vermeer/call-home.sh

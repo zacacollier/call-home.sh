@@ -1,0 +1,12 @@
+[Unit]
+Description=Backup configs once every hour
+
+[Timer]
+# Time to wait after booting before executing the script
+OnBootSec=10min
+# Time between running each consecutive time
+OnUnitActiveSec=1h
+Unit=call-home.service
+
+[Install]
+WantedBy=multi-user.target
